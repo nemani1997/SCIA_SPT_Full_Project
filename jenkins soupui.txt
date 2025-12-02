@@ -1,0 +1,43 @@
+Started by user Nemani Jaya Sai Ravi Kumar
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\scia-soupui-TEST
+[scia-soupui-TEST] $ cmd /c call C:\WINDOWS\TEMP\jenkins10430140073886814006.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\scia-soupui-TEST>c:
+
+C:\ProgramData\Jenkins\.jenkins\workspace\scia-soupui-TEST>cd C:\Program Files\SmartBear\SoapUI-5.9.1\bin\ 
+
+C:\Program Files\SmartBear\SoapUI-5.9.1\bin>testrunner.bat C:\Users\Dynamic\Documents\Soupui-Scia-shelter-soapui-project.xml 
+OpenJDK 64-Bit Server VM warning: Ignoring option --illegal-access=permit; support was removed in 17.0
+SoapUI 5.9.1 TestCase Runner
+Configuring log4j from [C:\Program Files\SmartBear\SoapUI-5.9.1\bin\soapui-log4j.xml]
+11:43:48,062 INFO  [DefaultSoapUICore] Creating new settings at [C:\WINDOWS\system32\config\systemprofile\soapui-settings.xml]
+11:43:48,946 INFO  [PluginManager] 0 plugins loaded in 3 ms
+11:43:48,946 INFO  [DefaultSoapUICore] All plugins loaded
+11:43:49,974 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Dynamic/Documents/Soupui-Scia-shelter-soapui-project.xml]
+11:43:49,981 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [calculator]
+11:43:49,982 INFO  [SoapUITestCaseRunner] Running Project [calculator], runType = PARALLEL
+11:43:50,000 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add TestCase]
+11:43:50,000 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+11:43:50,006 INFO  [SoapUITestCaseRunner] running step [Add]
+11:43:50,006 INFO  [SoapUITestCaseRunner] running step [Add Testsuit1]
+11:43:51,019 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add TestCase], time taken: 996ms, status: FINISHED
+11:43:51,020 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Divide TestCase]
+11:43:51,021 INFO  [SoapUITestCaseRunner] running step [Divide]
+11:43:51,101 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+11:43:51,101 INFO  [SoapUITestCaseRunner] running step [Add-Testsuit3]
+11:43:51,382 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Divide TestCase], time taken: 361ms, status: FINISHED
+11:43:51,383 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Multiply TestCase]
+11:43:51,384 INFO  [SoapUITestCaseRunner] running step [Multiply]
+11:43:51,404 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+11:43:51,404 INFO  [SoapUITestCaseRunner] running step [Test case1]
+11:43:51,673 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Multiply TestCase], time taken: 289ms, status: FINISHED
+11:43:51,674 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Subtract TestCase]
+11:43:51,675 INFO  [SoapUITestCaseRunner] running step [Subtract]
+11:43:51,679 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+11:43:51,679 INFO  [SoapUITestCaseRunner] running step [Div- Testsuit2]
+11:43:51,983 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Subtract TestCase], time taken: 308ms, status: FINISHED
+11:43:51,987 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+11:43:51,988 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 1973ms, status: FINISHED
+11:43:51,991 INFO  [SoapUITestCaseRunner] Project [calculator] finished with status [FINISHED] in 1997ms
+Finished: SUCCESS
