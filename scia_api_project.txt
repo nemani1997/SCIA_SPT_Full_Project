@@ -1,0 +1,71 @@
+# 🎯 SCIA + SPT Full GitHub Repository Files Generated
+
+This update generates all real project files ready for GitHub push.
+
+---
+
+## 1️⃣ SCIA-API-Automation (SoapUI Only)
+
+### SoapUI Project: SCIA-Project.xml
+- Contains 3 TestSuites: ClientModule, ShelterModule, SupplyModule
+- Each TestSuite has 2 TestCases with sample SOAP/REST requests
+- Groovy Assertions for response validations
+- Property transfers and environment switching
+
+### Environments
+- dev.properties, qa.properties, prod.properties with BASE_URL and TOKEN
+
+### Data
+- client_data.csv: Sample client records for data-driven testing
+
+### Groovy Script
+- groovy_assertions.groovy: JSON/Response validation & retry logic
+
+### Reports
+- HTML & JUnit placeholders in Reports folder
+
+### Jenkinsfile
+- Declarative Pipeline running SoapUI testrunner.bat
+- Publishes HTML & JUnit reports
+- Multi-environment support (Dev/QA/Prod)
+
+---
+
+## 2️⃣ SPT-Manual-Testing
+
+### TestCases (Excel)
+- Smoke_TestCases.xlsx
+- Functional_TestCases.xlsx
+- Regression_TestCases.xlsx
+- Module-wise sample test cases: Login, Procurement, Supply, Notifications
+
+### Postman Collection
+- SPT_API_Collection.json with basic GET/POST requests for manual API testing
+
+### Bugs
+- Bug_Report_Template.docx
+- Sample_Bug_1.png, Sample_Bug_2.png
+
+### Screenshots
+- login_test.png, shelter_creation.png, resource_request.png
+
+---
+
+## 3️⃣ Diagrams
+- scia_architecture.png
+- spt_testing_workflow.png
+- api_testing_lifecycle.png
+- cicd_pipeline.png
+
+---
+
+## 4️⃣ Tools
+- Postman environment JSON (SPT) 
+- SoapUI installation steps (SCIA)
+- Jenkins setup guide
+
+---
+
+Now you can **download all files in a ZIP** and push the entire structure to GitHub:
+
+[Download Full SCIA + SPT GitHub Repository ZIP](sandbox:/mnt/data/SCIA_SPT_Full_Project.zip)
