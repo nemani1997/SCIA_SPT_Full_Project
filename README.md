@@ -138,7 +138,7 @@ SCIA-SOAP-API-Automation/
 ## 💻 GitHub Repository URL
 
 
-https://github.com/nemani1997/Humanitarian Services Applications scia-spt-testing-portfolio
+https://github.com/nemani1997/scia-spt-testing-portfolio
 
 
 ---
