@@ -98,8 +98,7 @@ SCIA_SPT_Full_Project_Fresh/
 ## 💻 GitHub Repository URL
 
 
-https://github.com/
-<nemani1997>/scia-spt-testing-portfolio
+https://github.com/nemani1997/scia-spt-testing-portfolio
 
 
 ---
