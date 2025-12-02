@@ -1,4 +1,4 @@
-# SCIA & SPT Testing Portfolio
+#HSIT: Humanitarian Services Applications --Applications SCIA & SPT Testing Portfolio
 
 ## 📌 Project Overview
 This repository contains a full testing portfolio for two real-time projects:
