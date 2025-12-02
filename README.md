@@ -3,6 +3,38 @@
 ## 📌 Project Overview
 This repository contains a full testing portfolio for two real-time projects:
 
+SCIA SOAP API Automation – SoapUI | MuleSoft WSDL | CI/CD with Jenkins
+
+This repository contains a complete SOAP API automation framework for the SCIA (MuleSoft) SOAP Services, built using SoapUI with real-time enterprise standards.
+
+🚀 Project Features
+
+✔ SOAP Project created using the MuleSoft-provided WSDL
+
+✔ Environment Switching (Dev / QA / Prod) using SoapUI Project & TestSuite Properties
+
+✔ Reusable TestSuite Structure
+
+✔ Fully automated:
+
+CreateIncident
+
+UpdateIncident
+
+GetIncidentStatus
+
+CloseIncident
+
+✔ XPath Assertions for field validation
+
+✔ SLA Assertions for response time
+
+✔ Property Transfers between requests (Incident ID, Token, etc.)
+
+✔ Global request header setup (API key, username, content-type)
+
+✔ Error handling & SOAP Fault validations
+
 1. **SCIA API Automation (SoapUI + Jenkins)**  
    - API testing using SoapUI (SOAP & REST)  
    - Data-driven testing, property transfers, environment switching (Dev/QA/Prod)  
@@ -19,19 +51,26 @@ This repository contains a full testing portfolio for two real-time projects:
 
 ## 🗂 Repository Structure
 
-SCIA_SPT_Full_Project_Fresh/
-├── SCIA-API-Automation/
-│ ├── SoapUI/
-│ │ ├── SCIA-Project.xml
-│ │ ├── Environments/
-│ │ │ ├── dev.properties
-│ │ │ ├── qa.properties
-│ │ │ └── prod.properties
-│ │ └── Data/client_data.csv
-│ ├── Scripts/groovy_assertions.groovy
-│ ├── Reports/test-report.html
-│ ├── Reports/junit-report.xml
-│ └── Jenkinsfile
+SCIA-SOAP-API-Automation/
+│
+├── SoapUI/
+│   ├── SCIA-SOAP-Project.xml
+│   ├── environments.properties
+│   └── testdata/
+│       └── CreateIncident_Data.xlsx
+│
+├── Jenkins/
+│   ├── Jenkinsfile
+│   └── testrunner-command.txt
+│
+├── Documentation/
+│   ├── SCIA_Mulesoft_WSDL_Overview.pdf
+│   ├── TestPlan.pdf
+│   └── TestReport_Sample/
+│       └── HTML_Reports
+│
+└── README.md
+
 │
 ├── SPT-Manual-Testing/
 │ ├── TestCases/Smoke_TestCases.xlsx
@@ -56,7 +95,8 @@ SCIA_SPT_Full_Project_Fresh/
 ---
 
 ## 🛠 Tools Used
-- **SoapUI**: API testing (SOAP & REST)  
+- **SoapUI**: API testing (SOAP & REST)
+- **MuleSoft (WSDL)
 - **Postman**: Manual API testing for SPT project  
 - **Jenkins**: CI/CD pipeline for SCIA API Automation  
 - **Excel**: Test case documentation  
