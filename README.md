@@ -138,7 +138,7 @@ SCIA-SOAP-API-Automation/
 ## 💻 GitHub Repository URL
 
 
-https://github.com/nemani1997/scia-spt-testing-portfolio
+(https://github.com/nemani1997/SCIA_SPT_Full_Project?tab=readme-ov-file)
 
 
 ---
